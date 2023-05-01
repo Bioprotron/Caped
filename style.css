@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  position: absolute;
+  width: 1099px;
+  height: 24px;
+  left: 289px;
+  top: 49px;
+}
+
+#basket {
+  margin-left: 49.15px;
+  margin-right: 0px;
+}
+
+#person {
+  margin-left: 27.15px;
+  margin-right: 0px;
+}
+  
+.topnav a {
+  color: black;
+  text-align: center;
+  margin-left: 42px;
+  text-decoration: none;
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.topnav nav {
+  float: right;
+}
+  
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+  
+.topnav a.active {
+  border-bottom: 3px solid black;
+}
+  
+.topnav .search-container {
+  float: left;
+}
+  
+.topnav input[type=text] {
+  border: none;
+}
+  
+.topnav .search-container button {
+  float: left;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 18.75px;
+  border: none;
+  cursor: pointer;
+}
+  
+.topnav .search-container button:hover {
+  background: #ccc;
+}  
+
+.logo {
+  position: absolute;
+  width: 93px;
+  height: 44px;
+  left: 56px;
+  top: 51px;
+}
+
+h1 {
+  position: absolute;
+  width: 106px;
+  height: 47px;
+  left: 58px;
+  top: 152px;
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.sidenavbar {
+  position: absolute;
+  width: 149.96px;
+  height: 687.35px;
+  left: 60px;
+  top: 243.24px;
+}
+
+.sidenavbar a {
+  font-family: 'Sofia Pro', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7099px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.vector {
+  position: relative;
+  width: 149.96px;
+  height: 47.13px;  
+  top: 318.85px;
+}
+
+.vector a {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 50.49px;
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7099px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.newIn a {
+  margin-left: 10.1px;
+}
+
+.Clothing a {
+  margin-left: 12.34px;
+}
+
+.Shoes a {
+  margin-left: 13.47px;
+}
+
+.Accessories a {
+  margin-left: 12.34px;
+}
+
+.Activewear a {
+  margin-left: 11.22px;
+}
+
+.Gifts a {
+  margin-left: 12.34px;
+}
+
+.Inspiration a {
+  margin-left: 8.98px;
+}
+
+.container {  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 21px;
+  grid-row-gap: 21px;
+  position: absolute;
+  width: 1099px;
+  height: 783px;
+  left: 289px;
+  top: 143px;
+}
+  
+.div1 { 
+  grid-area: 1 / 1 / 2 / 3;
+  width: 539px;
+  height: 180px;
+}
+
+.div2 {
+  grid-area: 2 / 1 / 3 / 3;
+  width: 539px;
+  height: 180px;
+}
+
+.div3 {
+  grid-area: 3 / 1 / 5 / 2;
+  width: 259px;
+  height: 382px;
+}
+
+.div4 {
+  grid-area: 3 / 2 / 5 / 3; 
+  width: 259px;
+  height: 382px;
+}
+
+.div5 {
+  grid-area: 1 / 3 / 3 / 4;
+  width: 259px;
+  height: 380px;
+}
+
+.div6 {
+  grid-area: 1 / 4 / 3 / 5;
+  width: 259px;
+  height: 380px;
+}
+
+.div7 {
+  grid-area: 3 / 3 / 4 / 5;
+  width: 539px;
+  height: 180px;
+}
+
+.div8 {
+  grid-area: 4 / 3 / 5 / 5;
+  width: 539px;
+  height: 180px;
+}
+  
+ul li {
+  margin-top: 24.25px;
+}
+
